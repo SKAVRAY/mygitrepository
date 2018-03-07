@@ -29,6 +29,13 @@ to get help from the git CLI we can use the commanad
 to commit the canges to the repository we use
  git commit -m "this is my initial commit" #-m is used to give a description to the change or commit
  
+to add a remote repository use the following command
+ git remote add https://github.com/SKAVRAY/mygitrepository.git
+
+to push the canges to remote repository
+git push origin master
+
+
  
 
 
