@@ -14,4 +14,22 @@ git config --global branch.autosetuprebase always
 to create a bare repository we use 
 git --bare init
 
+to add a file to the repository we use
+git add shilpa.txt
+
+to know the status of the commits we use
+git status  #it gives the status of both tracked and untracked files
+
+to know the logs of who commited the file we use
+git log
+ 
+to get help from the git CLI we can use the commanad
+ git --help
+
+to commit the canges to the repository we use
+ git commit -m "this is my initial commit" #-m is used to give a description to the change or commit
+ 
+ 
+
+
 
