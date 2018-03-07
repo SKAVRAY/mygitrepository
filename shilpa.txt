@@ -35,6 +35,10 @@ to add a remote repository use the following command
 to push the canges to remote repository
 git push origin master
 
+cloning is creating a local repository on ur local machine to clone a repository we use the below cammand
+git clone https://github.com/SKAVRAY/mygitrepository
+
+
 
  
 
