@@ -1,0 +1,17 @@
+hi all this is the starting of my git administartion course.Kindly check this man page for the command to be used in git
+
+ To set global configurations for git repository  
+
+git config --global user.name "SKAVARY"
+git config --global user.email "shilpakavis@gmail.com"
+git config  --global core.editor vim
+
+Avoid merge commits for pulling
+You pull the latest changes from a remote repository, and if these changes are divergent, then by default Git creates merge commits. We can avoid this via following settings
+
+git config --global branch.autosetuprebase always
+
+to create a bare repository we use 
+git --bare init
+
+
